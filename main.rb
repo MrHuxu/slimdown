@@ -10,6 +10,7 @@ end
 get '/archives' do
   @title = '文章归档'
   archives13 = Dir.glob('views/archives/2013/*.*')
+  archives13.sort!.reverse!
   @arc_paths13 = Array.new
   @arc_names13 = Array.new
   @arc_times13 = Array.new
@@ -21,6 +22,7 @@ get '/archives' do
     @arc_tags13.push(arc.split('*')[3].split('.')[0])
   end
   archives14 = Dir.glob('views/archives/2014/*.*')
+  archives14.sort!.reverse!
   @arc_paths14 = Array.new
   @arc_names14 = Array.new
   @arc_times14 = Array.new
