@@ -1,0 +1,24 @@
+# Logfile created on 2014-01-10 20:59:58 +0800 by logger.rb/44203
+I, [2014-01-10T20:59:58.676938 #3703]  INFO -- : 0:  addressable (2.3.5) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/addressable-2.3.5.gemspec
+I, [2014-01-10T20:59:58.677594 #3703]  INFO -- : 0:  coderay (1.1.0) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/coderay-1.1.0.gemspec
+I, [2014-01-10T20:59:58.677988 #3703]  INFO -- : 0:  daemons (1.1.9) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/daemons-1.1.9.gemspec
+I, [2014-01-10T20:59:58.678339 #3703]  INFO -- : 0:  eventmachine (1.0.3) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/eventmachine-1.0.3.gemspec
+I, [2014-01-10T21:00:07.042906 #3703]  INFO -- : 0:  excon (0.31.0) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/excon-0.31.0.gemspec
+I, [2014-01-10T21:00:16.141437 #3703]  INFO -- : 0:  multi_json (1.8.4) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-01-10T21:00:20.586510 #3703]  INFO -- : 0:  heroku-api (0.3.16) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/heroku-api-0.3.16.gemspec
+I, [2014-01-10T21:00:20.587073 #3703]  INFO -- : 0:  launchy (2.4.2) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/launchy-2.4.2.gemspec
+I, [2014-01-10T21:00:20.587442 #3703]  INFO -- : 0:  netrc (0.7.7) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/netrc-0.7.7.gemspec
+I, [2014-01-10T21:00:20.587805 #3703]  INFO -- : 0:  mime-types (2.0) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/mime-types-2.0.gemspec
+I, [2014-01-10T21:00:20.588129 #3703]  INFO -- : 0:  rest-client (1.6.7) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rest-client-1.6.7.gemspec
+I, [2014-01-10T21:00:28.280009 #3703]  INFO -- : 0:  rubyzip (1.1.0) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rubyzip-1.1.0.gemspec
+I, [2014-01-10T21:00:28.308171 #3703]  INFO -- : 0:  heroku (3.0.1) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/heroku-3.0.1.gemspec
+I, [2014-01-10T21:00:28.308614 #3703]  INFO -- : 0:  rack (1.5.2) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-01-10T21:00:28.308981 #3703]  INFO -- : 0:  rack-protection (1.5.1) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-10T21:00:28.309308 #3703]  INFO -- : 0:  redcarpet (3.0.0) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/redcarpet-3.0.0.gemspec
+I, [2014-01-10T21:00:28.309625 #3703]  INFO -- : 0:  shotgun (0.9) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/shotgun-0.9.gemspec
+I, [2014-01-10T21:00:28.309943 #3703]  INFO -- : 0:  tilt (1.4.1) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-01-10T21:00:28.310271 #3703]  INFO -- : 0:  sinatra (1.4.4) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-10T21:00:28.310600 #3703]  INFO -- : 0:  temple (0.6.7) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/temple-0.6.7.gemspec
+I, [2014-01-10T21:00:28.310919 #3703]  INFO -- : 0:  slim (2.0.2) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/slim-2.0.2.gemspec
+I, [2014-01-10T21:00:28.311239 #3703]  INFO -- : 0:  thin (1.6.1) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/thin-1.6.1.gemspec
+I, [2014-01-10T21:00:28.311541 #3703]  INFO -- : 0:  bundler (1.5.1) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec
