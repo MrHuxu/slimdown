@@ -1,0 +1,25 @@
+$(document).ready(function(){
+  hljs.initHighlightingOnLoad();
+  $('.arc_year').fadeIn();
+  $('.arc_link').fadeIn().hover(function(){
+    $(this).animate({
+      marginLeft:20,
+      opacity:1
+    },100).animate({
+      marginLeft:10,
+      opacity:0.9
+    },100).animate({
+      marginLeft:20,
+      opacity:1
+    },100);
+  }, function(){
+    $(this).stop(true).animate({
+      marginLeft:0,
+      opacity:0.8
+    },100)
+  });
+  $('#homelist').fadeIn();
+  $('#pro_list').fadeIn();
+  $('#aboutme_label').fadeIn();
+  $('#arc_content').hide().fadeIn();
+});

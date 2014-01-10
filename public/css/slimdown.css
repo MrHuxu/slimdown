@@ -1,0 +1,134 @@
+body{
+  background: url("/res/background.jpg");
+}
+
+ol>li, div>p{
+  font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
+  font-weight:normal;
+  line-height:26px;
+  color:#696969;
+}
+
+ol>li>p{
+  font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
+  font-weight:normal;
+  color:#696969;
+  margin-top:-7px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
+  font-weight:bold;
+  color:#666;
+}
+
+pre{
+  font-size:13px;
+  font-family: Monaco,Menlo, "Courier New", monospace;
+  border-radius: 5px;
+  padding: 1.5px;
+  line-height: 18px;
+  background-color: #ccc;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+code{
+  font-family: Monaco,Menlo, "Courier New", monospace;
+}
+
+li>code, p>code{
+  margin: 0 2px;
+  font-size: 14px !important;
+  background-color: ghostwhite !important;
+  color:#d149a6 !important;
+  padding: 0 0.2em !important;
+  border: 1px solid #dedede !important;
+}
+
+a{
+  font-size:18px;
+  text-decoration: none;
+}
+
+#logo{
+  margin:10px;
+}
+
+#title{
+  margin:10px;
+  margin-left:-15px;
+}
+
+#options{
+  margin-top:40px;
+}
+
+#option_detail{
+  margin:40px;
+  line-height:20px;
+  font-family: 'Amethysta', serif;
+  font-weight: 300;
+  font-size: 30px;
+  color: #444;
+}
+
+.homeitem_label{
+  float:right;
+}
+
+#arc_year{
+  font-size:40px;
+}
+
+.link{
+  font-size:21px;
+  color:#666
+}
+
+.pro_link, .page_link{
+  color: #258fb8;
+  font-size:21px;
+}
+
+.page_link{
+  margin-left:90px;
+}
+
+#arc_detail1, #arc_detail2{
+  color:#888;
+}
+#aboutme_label{
+	text-align:center;
+  margin-right:40px;
+}
+
+#aboutme_img{
+  border-radius:10px;
+}
+
+.mail{
+  color:#D95C5C!important;
+}
+
+.arc_link{
+  padding-top:15px;
+  border-bottom:1px solid #aaa;
+  line-height:5px;
+}
+
+.arc_link, .arc_year{
+  opacity:0.8;
+}
+
+.arc_year{
+  margin-left:30px;
+}
+
+.arc_year, .ui.link.arc_link, #arc_content, #pro_list, #homelist, #aboutme_label{
+  display:none;
+}
+
+#arc_detail1, #arc_detail2{
+  color:#888;
+}

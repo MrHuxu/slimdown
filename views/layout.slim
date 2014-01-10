@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title #{@title}
+    title 跳大飞机的Blog
+    link rel="shortcut icon" type="image/png" href="/res/MyLogoT.png"
+    link rel='stylesheet' type='text/css' href='/css/highlight/school_book.css'
+    link rel='stylesheet' type='text/css' href='/css/semantic.min.css'
+    link rel='stylesheet' type='text/css' href='/css/slimdown.css'
+  body
+    .ui.grid
+      .five.wide.column
+      .ten.wide.column#title
+        img src='/res/title.gif'
+    .ui.grid#options
+      .four.wide.column 
+      .two.wide.column
+        a.ui.green.label href='/' &nbsp;&nbsp;Home&nbsp;&nbsp;
+      .two.wide.column
+        a.ui.blue.label href='/archives' Archives
+      .two.wide.column
+        a.ui.orange.label href='/projects' Projects
+      .two.wide.column
+        a.ui.red.label href='/aboutme' AboutMe&nbsp;
+    .ui.grid#option_detail
+      .three.wide.column
+      .ten.wide.column
+        ==yield
