@@ -125,7 +125,7 @@ a{
   margin-left:30px;
 }
 
-.arc_year, .ui.link.arc_link, #arc_content, #pro_list, #homelist, #aboutme_label{
+.arc_year, .arc_link, #arc_content, #pro_list, #homelist, #aboutme_label{
   display:none;
 }
 
