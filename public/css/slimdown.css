@@ -38,6 +38,7 @@ code{
 }
 
 li>code, p>code{
+  border-radius:6px;
   margin: 0 2px;
   font-size: 14px !important;
   background-color: ghostwhite !important;
