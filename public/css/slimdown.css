@@ -100,7 +100,7 @@ a{
   color:#888;
 }
 #aboutme_label{
-	text-align:center;
+  text-align:center;
   margin-right:40px;
 }
 
@@ -132,4 +132,10 @@ a{
 
 #arc_detail1, #arc_detail2{
   color:#888;
+}
+
+p>a{
+  font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
+  font-size:16px;
+  color:#00b5ad;
 }
