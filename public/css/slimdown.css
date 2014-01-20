@@ -23,8 +23,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 pre{
-  font-size:13px;
-  font-family: Monaco,Menlo, "Courier New", monospace;
+  font-size: 15px;
+  font-family: Ubuntu Mono, Monaco,Menlo, "Courier New", monospace;
   border-radius: 5px;
   padding: 1.5px;
   line-height: 18px;
