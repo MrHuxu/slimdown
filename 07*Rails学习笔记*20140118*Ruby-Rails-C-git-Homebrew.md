@@ -1,4 +1,4 @@
-#Rails学习笔记  
+#寒假学习笔记(一) 
 - 使用```脚手架```在数据库中创建表时，使用```单数```，而在浏览器中浏览表中所有数据时，域名是```复数```。  
 
 - ```脚手架```创建表时，不需要创建```id```属性，这个会默认创建的，而且作为主键存在，值不会重复，即一个表想删除之后，其对应的```id```也会被删除，并且其他的```id```不会变。  
@@ -8,4 +8,10 @@
 	    cd (brew --repository)
 	    git remote add origin https://github.com/mxcl/homebrew.git
 	    git fetch origin
-	    sudo git reset --hard origin/master
+	    sudo git reset --hard origin/master  
+	    
+- ```C```是可以允许被调用的函数在调用处之后声明的，编译器会给出一个```warning```。但是再```C++```中不允许这样，编译器会给出一个```error```，不论是```clang++```还是```g++```都不行。  
+
+	所以如果不确定的话，最好函数再调用之前声明，嗯，还好已经养成这个习惯了。。。  
+	
+- 
