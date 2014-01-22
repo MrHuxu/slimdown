@@ -6,7 +6,7 @@
 - 因为太长时间没```update```导致```$ brew update```出错时，运行以下指令一般都能解决问题：  
 
 	    cd (brew --repository)
-	    git remote add origin https://github.com/mxcl/homebrew.git
+	    #git remote add origin https://github.com/mxcl/homebrew.git
 	    git fetch origin
 	    sudo git reset --hard origin/master  
 	    

@@ -129,9 +129,11 @@ a{
   padding-top:15px;
   border-bottom:1px solid #aaa;
   line-height:5px;
+  opacity:0;
+  margin-left:200px;
 }
 
-.arc_link, .arc_year{
+.arc_year{
   opacity:0.8;
 }
 
@@ -139,7 +141,7 @@ a{
   margin-left:30px;
 }
 
-.arc_year, .arc_link, #arc_content, #pro_list, #homelist, #aboutme_label{
+.arc_year, #arc_content, #pro_list, #homelist, #aboutme_label{
   display:none;
 }
 
