@@ -68,9 +68,9 @@
 	
 7. ```jQuery```的选择器，有些需要带上元素类型，有些的则不用，实际使用的时候多试一下就好了，比如：  
 
-		$(.arc_link).fadeIn()     //有效果
-		console.log($(.arc_link).length)     //无法统计元素个数
-		console.log($(div.arc_link).length)      //可以输出元素个数
+		$('.arc_link').fadeIn()     //有效果
+		console.log($('.arc_link').length)     //无法统计元素个数
+		console.log($('div.arc_link').length)      //可以输出元素个数
 		
 8. ```jQuery```的很多方法都是有回调函数的，比如：
 
