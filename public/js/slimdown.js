@@ -17,20 +17,24 @@ $(document).ready(function(){
   })
 
   $('#home').click(function(){
-    $(this).css('opacity', '1')
-    location.href = '/'
+    $(this).animate({ opacity:1 }, 'fast', function(){
+      location.href = '/'
+    })
   })
   $('#archives').click(function(){
-    $(this).css('opacity', '1')
-    location.href = '/archives'
+    $(this).animate({ opacity:1 }, 'fast', function(){
+      location.href = '/archives'
+    })
   })
   $('#projects').click(function(){
-    $(this).css('opacity', '1')
-    location.href = '/projects'
+    $(this).animate({ opacity:1 }, 'fast', function(){
+      location.href = '/projects'
+    })
   })
   $('#aboutme').click(function(){
-    $(this).css('opacity', '1')
-    location.href = '/aboutme'
+    $(this).animate({ opacity:1 }, 'fast', function(){
+      location.href = '/aboutme'
+    })
   })
 })
 
