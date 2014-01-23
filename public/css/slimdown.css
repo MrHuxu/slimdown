@@ -1,12 +1,99 @@
 body{
-  background: url("/res/background.jpg");
+  background: url("/res/blur.jpg");
+  margin-top:30px;
+}
+
+#logo, #motto, #index, #content{
+  background-color: #eeeeee;
+  border-radius:7px;
+}
+
+#logo{
+  margin:10px;
+  width: 115%;
+  height: 100px;
+}
+
+#logo_img{
+  margin:10px;
+  width:900px;
+}
+
+#motto{
+  margin-top:-6px;
+  margin-left:10px;
+  width:115%;
+  height: 100px;
+}
+
+#motto1, #motto2{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+#motto1{
+  padding-top:15px;
+}
+
+#motto2{
+  margin-top:-20px;
+  float:right;
+}
+
+#index{
+  margin:10px;
+  width: 115%;
+  height: 280px;
+  text-align: center;
+  
+}
+
+#index>div>p{
+  font-size:20px;
+  margin-top:10px;
+  background-color: #bbbbbb;
+}
+
+#content{
+  margin:10px;
+  width:100%;
+  height:500px;
+  overflow: auto;
+}
+
+#home, #archives, #projects, #aboutme{
+  opacity:0.8;
+  border-radius:7px;
+  width:100%;
+  height:68px;
+  background: #bbbbbb;
+  cursor: pointer;
+}
+
+#home, #archives, #projects{
+  border-bottom: 3px solid #999999;
+}
+
+.homeitem{
+  border-bottom: 1px solid #999999;
+}
+.home_img{
+  border-radius:10px;
+  margin-top:30px;
+  margin-left:25px;
+  width:500px;
+}
+
+.home_label{
+  float: right;
+  margin-right:20px;
 }
 
 ol>li, div>p{
-  font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
-  font-weight:normal;
-  line-height:26px;
-  color:#696969;
+font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
+font-weight:normal;
+line-height:26px;
+color:#696969;
 }
 
 blockquote{
@@ -22,7 +109,7 @@ blockquote{
   border-radius:6px;
 }
 
-ol>li>p{
+ol>li>p, ul>li>p{
   font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
   font-weight:normal;
   color:#696969;
@@ -36,14 +123,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 pre{
+  background-color:#fdf6e3;
   font-size: 15px;
   font-family: Ubuntu Mono, Monaco,Menlo, "Courier New", monospace;
   border-radius: 5px;
   padding: 1.5px;
   line-height: 18px;
-  background-color: #ccc;
   border: 1px solid #ccc;
   border: 1px solid rgba(0,0,0,0.15);
+  overflow: auto;
 }
 
 code{
@@ -65,6 +153,7 @@ a{
   text-decoration: none;
 }
 
+/*
 #logo{
   margin:10px;
 }
@@ -90,10 +179,7 @@ a{
 .homeitem_label{
   float:right;
 }
-
-#arc_year{
-  font-size:40px;
-}
+*/
 
 .link{
   font-size:21px;
@@ -112,9 +198,10 @@ a{
 #arc_detail1, #arc_detail2{
   color:#888;
 }
+
 #aboutme_label{
+  padding-top:55px;
   text-align:center;
-  margin-right:40px;
 }
 
 #aboutme_img{
@@ -137,13 +224,20 @@ a{
   opacity:0.8;
 }
 
-.arc_year{
-  margin-left:30px;
-}
-
 .arc_year, #arc_content, #pro_list, #homelist, #aboutme_label{
   display:none;
 }
+
+#pro_list{
+  padding-top:23px;
+}
+
+#arc_content{
+  padding-top:10px;
+  padding-left:20px;
+  padding-right:20px;
+}
+
 
 #arc_detail1, #arc_detail2{
   color:#888;
@@ -153,4 +247,8 @@ p>a{
   font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
   font-size:16px;
   color:#00b5ad;
+}
+
+#title_list{
+  padding-top:20px;
 }

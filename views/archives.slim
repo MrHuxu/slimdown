@@ -1,29 +1,31 @@
-.ui.grid
-  .one.wide.column
-  .three.wide.column
-    h1.arc_year 2014
-  .eleven.wide.column
-    -@arc_paths14.length.times do |i|
-      .arc_link
-        a.link href='archives/2014/#{@arc_paths14[i]}' #{@arc_names14[i]}
-        .ui.grid
-          .five.wide.column
-            h5#arc_detail1 Time:#{@arc_times14[i]}
-          .eleven.wide.column
-            h5#arc_detail2 Tags:#{@arc_tags14[i]}
-.ui.grid
-  .one.wide.column
-  .three.wide.column
-    h1.arc_year 2013
-  .eleven.wide.column
-    -@arc_paths13.length.times do |i|
-      .arc_link
-        a.link href='archives/2013/#{@arc_paths13[i]}' #{@arc_names13[i]}
-        .ui.grid
-          .five.wide.column
-            h5#arc_detail1 Time:#{@arc_times13[i]}
-          .eleven.wide.column
-            h5#arc_detail2 Tags:#{@arc_tags13[i]}
+#title_list
+  .ui.grid
+    .one.wide.column
+    .three.wide.column
+      h1.arc_year 2014
+    .eleven.wide.column
+      -@arc_paths14.length.times do |i|
+        .arc_link
+          a.link href='archives/2014/#{@arc_paths14[i]}' #{@arc_names14[i]}
+          .ui.grid
+            .five.wide.column
+              h5#arc_detail1 Time:#{@arc_times14[i]}
+            .eleven.wide.column
+              h5#arc_detail2 Tags:#{@arc_tags14[i]}
+  .ui.grid
+    .one.wide.column
+    .three.wide.column
+      h1.arc_year 2013
+    .eleven.wide.column
+      -@arc_paths13.length.times do |i|
+        .arc_link
+          a.link href='archives/2013/#{@arc_paths13[i]}' #{@arc_names13[i]}
+          .ui.grid
+            .five.wide.column
+              h5#arc_detail1 Time:#{@arc_times13[i]}
+            .eleven.wide.column
+              h5#arc_detail2 Tags:#{@arc_tags13[i]}
 script type='text/javascript' src='/js/jquery-1.10.2.min.js'
+script type='text/javascript' src='/js/jquery.color-2.1.2.min.js'
 script type='text/javascript' src='/js/highlight.pack.js'
 script type='text/javascript' src='/js/slimdown.js'

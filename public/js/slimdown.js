@@ -1,11 +1,47 @@
-var count = 0
+$(document).ready(function(){
+  var obj
+  $('#index>div').hover(function(){
+    $(this).animate({ 
+      backgroundColor:'#386',
+      opacity:0.8
+    }, 'fast')
+    var obj=$(this).children('p')
+    $(obj[0]).animate({ backgroundColor:'#ff9999' }, 'fast')
+  }, function(){
+    $(this).animate({ 
+      backgroundColor:'#bbbbbb',
+      opacity:0.8
+    }, 'fast')
+    obj=$(this).children('p')
+    $(obj[0]).animate({ backgroundColor:'#bbbbbb' }, 'fast')
+  })
+
+  $('#home').click(function(){
+    $(this).css('opacity', '1')
+    location.href = '/'
+  })
+  $('#archives').click(function(){
+    $(this).css('opacity', '1')
+    location.href = '/archives'
+  })
+  $('#projects').click(function(){
+    $(this).css('opacity', '1')
+    location.href = '/projects'
+  })
+  $('#aboutme').click(function(){
+    $(this).css('opacity', '1')
+    location.href = '/aboutme'
+  })
+})
+
+var count1 = 0
 function show_pic(){
-  if(count < a){
-    $('.arc_link:eq(' + count + ')').animate({
+  if(count1 < a){
+    $('.arc_link:eq(' + count1 + ')').animate({
       opacity:0.8,
       marginLeft:0,
     },400)
-    count += 1
+    count1 += 1
   }
 }
 
@@ -14,10 +50,10 @@ $(document).ready(function(){
 
   a = $('div.arc_link').length
   $('.arc_year').fadeIn('slow');
-  $('#homelist').fadeIn();
   $('#pro_list').fadeIn();
-  $('#aboutme_label').fadeIn();
-  $('#arc_content').hide().fadeIn();
+  $('#aboutme_label').fadeIn('slow');
+  $('#arc_content').hide().fadeIn('slow');
+  $('#homelist').fadeIn('slow')
 
   setInterval('show_pic()', 90)
 

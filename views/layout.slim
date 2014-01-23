@@ -9,20 +9,22 @@ html
     link rel='stylesheet' type='text/css' href='/css/slimdown.css'
   body
     .ui.grid
-      .five.wide.column
-      .ten.wide.column#title
-        img src='/res/title.gif'
-    .ui.grid#options
-      .four.wide.column 
-      .two.wide.column
-        a.ui.green.label href='/' &nbsp;&nbsp;Home&nbsp;&nbsp;
-      .two.wide.column
-        a.ui.purple.label href='/archives' Archives
-      .two.wide.column
-        a.ui.orange.label href='/projects' Projects
-      .two.wide.column
-        a.ui.teal.label href='/aboutme' AboutMe&nbsp;
-    .ui.grid#option_detail
       .three.wide.column
-      .ten.wide.column
-        ==yield
+      .three.wide.column
+        #logo
+          img#logo_img src='/res/title.gif'
+        #motto
+          p#motto1 I'm not in danger, I am the danger.
+          p#motto2 ——Walter White
+        #index
+          #home
+            p.ui.label HOME
+          #archives
+            p.ui.label ARCHIVES
+          #projects
+            p.ui.label PROJECTS
+          #aboutme
+            p.ui.label ABOUTME
+      .seven.wide.column
+        #content
+          ==yield
