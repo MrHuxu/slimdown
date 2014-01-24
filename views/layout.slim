@@ -18,13 +18,17 @@ html
           p#motto2 ——Walter White
         #index
           #home
-            p.ui.label HOME
+            p.ui.label 
+              a href='/' HOME
           #archives
-            p.ui.label ARCHIVES
+            p.ui.label 
+              a href='/archives' ARCHIVES
           #projects
-            p.ui.label PROJECTS
+            p.ui.label 
+              a href='/projects' PROJECTS
           #aboutme
-            p.ui.label ABOUTME
+            p.ui.label
+              a href='/aboutme' ABOUTME
       .seven.wide.column
         #content
           ==yield
