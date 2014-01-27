@@ -5,7 +5,7 @@ $(document).ready(function(){
       backgroundColor:'#386',
       opacity:0.8
     }, 'fast')
-    var obj=$(this).children('p')
+    obj=$(this).children('p')
     $(obj[0]).animate({ backgroundColor:'#ff9999' }, 'fast')
   }, function(){
     $(this).animate({ 
@@ -15,6 +15,30 @@ $(document).ready(function(){
     obj=$(this).children('p')
     $(obj[0]).animate({ backgroundColor:'#bbbbbb' }, 'fast')
   })
+
+  $('#home').hover(function(){
+    $('#home_link').html('首    页')
+  }, function(){
+    $('#home_link').html('HOME')
+  })
+
+  $('#archives').hover(function(){
+    $('#archives_link').html('文章归档')
+  }, function(){
+    $('#archives_link').html('ARCHIVES')
+  })
+
+  $('#projects').hover(function(){
+    $('#projects_link').html('我的项目')
+  }, function(){
+    $('#projects_link').html('PROJECTS')
+  })
+
+  $('#aboutme').hover(function(){
+    $('#aboutme_link').html('关    于')
+  }, function(){
+    $('#aboutme_link').html('ABOUTME')
+  }) 
 
   $('#home').click(function(){
     $(this).animate({ opacity:1 }, 'fast', function(){
