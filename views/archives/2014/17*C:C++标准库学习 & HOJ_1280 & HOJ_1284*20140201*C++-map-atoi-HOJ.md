@@ -13,9 +13,10 @@
 		
 	当然，这个标准库也有自己的迭代器，在查找元素和删除元素时都要用到，使用```find```函数创造迭代器后，可以进行相关的操作，代码如下  
 
-        //查找操作，在找不到键值对时，迭代器最终会指向表尾		search_test = test.find(3);
+        //查找操作，在找不到键值对时，迭代器最终会指向表尾	    
+        search_test = test.find(3);
         if(search_test == test.end())
-        	cout << "there is not a key-value pair which key is 3" << endl;
+            cout << "there is not a key-value pair which key is 3" << endl;
         	
         //删除操作，如果迭代器找到该键值对，会停止迭代，这时可以调用删除的函数
         delete_test = test.find(2);
