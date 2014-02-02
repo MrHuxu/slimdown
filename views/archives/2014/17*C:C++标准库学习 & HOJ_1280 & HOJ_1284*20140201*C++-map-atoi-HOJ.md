@@ -174,7 +174,7 @@
 	int main() {
   		while (cin >> cmd) {
     		int num;
-    		if (strcmp(cmd, "END_OF_FIRST_PART") == 0)
+    		if (!strcmp(cmd, "END_OF_FIRST_PART"))
       			break;
     		cin >> num;
     		atlist[string(cmd)] = num;
