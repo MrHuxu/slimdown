@@ -231,10 +231,10 @@ p>a{
 
 /* 高亮选中 */
 ::-moz-selection {
-  background:#08c;
+  background:#38485a;
   color:#fff;
 }
 ::selection {
-  background:#08c;
+  background:#38485a;
   color:#fff;
 }
