@@ -93,7 +93,7 @@ body{
   margin-right:20px;
 }
 
-ol>li, div>p{
+ol>li, div>p, ul>li{
   font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
   font-weight:normal;
   line-height:26px;
