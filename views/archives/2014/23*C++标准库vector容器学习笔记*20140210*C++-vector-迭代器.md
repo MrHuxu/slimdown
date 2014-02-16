@@ -59,7 +59,7 @@
 	  	v2.erase(5);     //删除第四个元素
 	  	v2.erase(v2.begin(), v2.begin() + 3);    //删除从开始到第四个元素
 
-- 全局函数```remove(pos1, pos2, val)```/```find(pos1, pos2, val)```：```remove()```将两个迭代器中间和```val```相等的都删除，```find```则反悔一个指向两个迭代器之间第一个值为```val```的元素所在的位置，返回值也是一个迭代器：  
+- 全局函数```remove(pos1, pos2, val)```/```find(pos1, pos2, val)```：```remove()```将两个迭代器中间和```val```相等的都删除，```find```则返回一个指向两个迭代器之间第一个值为```val```的元素所在的位置，返回值也是一个迭代器：  
 
 	  	vector<int>::iterator pos = find(v2.begin(), v2.end(), 2);
 	  	v2.erase(pos);
