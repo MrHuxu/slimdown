@@ -1,0 +1,34 @@
+doctype html
+html
+  head
+    title #{@title}
+    title 跳大飞机的Blog
+    link rel="shortcut icon" type="image/png" href="/res/MyLogoT.png"
+    link rel='stylesheet' type='text/css' href='/css/highlight/solarized_light.css'
+    link rel='stylesheet' type='text/css' href='/css/semantic.min.css'
+    link rel='stylesheet' type='text/css' href='/css/slimdown.css'
+  body
+    .ui.grid
+      .three.wide.column
+      .three.wide.column
+        #logo
+          img#logo_img src='/res/title.gif'
+        #motto
+          p#motto1 I'm not in danger, I am the danger.
+          p#motto2 ——Walter White
+        #index
+          #home
+            p.ui.label 
+              a#home_link href='/' HOME
+          #archives
+            p.ui.label 
+              a#archives_link href='/archives' ARCHIVES
+          #projects
+            p.ui.label 
+              a#projects_link href='/projects' PROJECTS
+          #aboutme
+            p.ui.label
+              a#aboutme_link href='/aboutme' ABOUTME
+      .seven.wide.column
+        #content
+          ==yield
