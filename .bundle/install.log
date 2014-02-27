@@ -137,6 +137,7 @@ I, [2014-02-24T12:19:35.789235 #5079]  INFO -- : 0:  temple (0.6.7) from /usr/lo
 I, [2014-02-24T12:19:35.789796 #5079]  INFO -- : 0:  slim (2.0.2) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/slim-2.0.2.gemspec
 I, [2014-02-24T12:19:35.790335 #5079]  INFO -- : 0:  thin (1.6.1) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/thin-1.6.1.gemspec
 I, [2014-02-24T12:19:35.790869 #5079]  INFO -- : 0:  bundler (1.5.1) from /usr/local/var/rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec
+<<<<<<< HEAD
 I, [2014-02-25T17:28:27.839560 #53271]  INFO -- : 0:  addressable (2.3.5) from /Users/huxu/.rvm/gems/ruby-2.1.0/specifications/addressable-2.3.5.gemspec
 I, [2014-02-25T17:28:28.343525 #53271]  INFO -- : 0:  coderay (1.1.0) from /Users/huxu/.rvm/gems/ruby-2.1.0/specifications/coderay-1.1.0.gemspec
 I, [2014-02-25T17:28:28.536238 #53271]  INFO -- : 0:  daemons (1.1.9) from /Users/huxu/.rvm/gems/ruby-2.1.0/specifications/daemons-1.1.9.gemspec
@@ -183,3 +184,5 @@ I, [2014-02-25T17:30:54.775143 #54162]  INFO -- : 0:  temple (0.6.7) from /Users
 I, [2014-02-25T17:30:54.775476 #54162]  INFO -- : 0:  slim (2.0.2) from /Users/huxu/.rvm/gems/ruby-2.1.0/specifications/slim-2.0.2.gemspec
 I, [2014-02-25T17:30:54.775833 #54162]  INFO -- : 0:  thin (1.6.1) from /Users/huxu/.rvm/gems/ruby-2.1.0/specifications/thin-1.6.1.gemspec
 I, [2014-02-25T17:30:54.776158 #54162]  INFO -- : 0:  bundler (1.5.1) from /Users/huxu/.rvm/gems/ruby-2.1.0@global/specifications/bundler-1.5.1.gemspec
+=======
+>>>>>>> 385147df4aecb3f28a68d67e15ed457cee808573
