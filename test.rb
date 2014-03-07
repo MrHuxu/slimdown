@@ -1,1 +1,0 @@
-puts Dir.glob('views/**/*')
