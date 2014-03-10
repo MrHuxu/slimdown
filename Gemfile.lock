@@ -53,4 +53,4 @@ DEPENDENCIES
   shotgun (~> 0.9)
   sinatra (~> 1.4.4)
   slim (~> 2.0.2)
-  thin (~> 1.6.1)
+  thin (~> 1.6.2)
