@@ -194,6 +194,10 @@ a{
   padding-right:20px;
 }
 
+#comments{
+  margin-top:10px;
+  padding:20px;
+}
 
 #arc_detail1, #arc_detail2{
   color:#888;
