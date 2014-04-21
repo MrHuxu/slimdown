@@ -1,16 +1,27 @@
+/*
 var parent_width = $('#logoitem').width()
 var son_width = $('#logo').width()
 $('#logoitem').css('padding-left', parent_width / 2 - son_width / 2)
 
 function change_location(){
-  if($('#logoitem').width() != parent_width){
-    parent_width = $('#logoitem').width()
-    $('#logoitem').css('padding-left', parent_width / 2 - son_width / 2)
-  }
+if($('#logoitem').width() != parent_width){
+parent_width = $('#logoitem').width()
+$('#logoitem').css('padding-left', parent_width / 2 - son_width / 2)
 }
+}
+*/
 
 $(document).ready(function(){
-  setInterval('change_location()', 100)
+  //  setInterval('change_location()', 100)
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'tdfj'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
 
   $('#home').popup({
     position:'bottom right',

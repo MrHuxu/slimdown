@@ -19,10 +19,13 @@ html{
 #logoitem{
   margin-top:2px;
   width:100%;
-  padding-left:618px;
+  position:relative;
 } 
 
 #logo{
+  position:absolute;
+  left:50%;
+  margin-left:-65px;
   height:35px;
 }
 
@@ -32,7 +35,6 @@ html{
 
 #right{
   float:right;
-  margin-top:-37px;
 }
 
 .homeitem{
