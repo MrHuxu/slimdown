@@ -43,7 +43,7 @@ end
 
 get '/aboutme' do
   @title = '关于'
-  slim :aboutme
+  slim :aboutme 
 end
 
 get '/archives/2013/:arc_path' do
