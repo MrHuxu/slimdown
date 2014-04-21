@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    title #{@title}
+    link rel='stylesheet' type='text/css' href='/css/highlight/solarized_light.css'
+    link rel='stylesheet' href='/css/semantic.css'
+    link rel='stylesheet' href='/css/typo.css'
+    link rel='stylesheet' href='/css/index.css'
+  body
+    .ui.fixed.transparent.inverted.main.menu#menu
+      .container
+        .left.menu#left
+          a.popup.home.icon.item#home href='/'
+            i.home.icon
+          a.popup.item#archives href='/archives'
+            i.text.file.icon
+          a.popup.item#projects href='/projects'
+            i.tasks.icon
+          a.popup.item#about href='/aboutme'
+            p About Me
+        #logoitem
+          img#logo src='/res/logo.png'
+        .right.menu#right
+          a.popup.item href='https://github.com/MrHuxu'
+            i.github.icon
+          a.popup.item href='http://weibo.com/2058722335/profile?topnav=1&wvr=5&user=1'
+            i.weibo.icon
+          a.popup.item href='http://www.renren.com/337570117/profile'
+            i.renren.icon
+          a.popup.item href='mailto:hxtheone@gmail.com'
+            i.mail.outline.icon
+    .ui.grid
+      .three.wide.column
+      .ten.wide.column#content
+        ==yield
+script type='text/javascript' src='/js/jquery.js'
+script type='text/javascript' src='/js/jquery.color.js'
+script type='text/javascript' src='/js/highlight.pack.js'
+script type='text/javascript' src='/js/semantic.js'
+script type='text/javascript' src='/js/index.js'
