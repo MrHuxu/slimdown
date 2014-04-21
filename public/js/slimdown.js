@@ -1,6 +1,6 @@
 $(document).ready(function(){
   /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-  var disqus_shortname = 'guaimao'; // required: replace example with your forum shortname
+  var disqus_shortname = 'tdfj'; // required: replace example with your forum shortname
 
   /* * * DON'T EDIT BELOW THIS LINE * * */
   (function() {
