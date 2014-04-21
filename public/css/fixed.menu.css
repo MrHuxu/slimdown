@@ -1,96 +1,72 @@
-body{
-  background: url("/res/blur.jpg");
-  margin-top:45px;
+@font-face{
+  font-family:'icons';
+  src:url(/fonts/icons.ttf); 
 }
 
-#logo, #motto, #index, #content{
-  background-color: #eeeeee;
-  border-radius:7px;
+html{
+  background:url('/res/white_brick_wall.png');
 }
+
+#menu{
+  height:40px;
+  opacity:0.8;
+}
+
+#about>p{
+  color:#ddd;
+}
+
+#logoitem{
+  margin-top:2px;
+  width:100%;
+  position:relative;
+} 
 
 #logo{
-  margin:10px;
-  width: 115%;
-  height: 100px;
+  position:absolute;
+  left:50%;
+  margin-left:-65px;
+  height:35px;
 }
 
-#logo_img{
-  margin:10px;
-  width:900px;
+#left{
+  margin-top:-4px;
 }
 
-#motto{
-  margin-top:-6px;
-  margin-left:10px;
-  width:115%;
-  height: 100px;
-}
-
-#motto1, #motto2{
-  padding-left:20px;
-  padding-right:20px;
-}
-
-#motto1{
-  padding-top:15px;
-}
-
-#motto2{
-  margin-top:-20px;
+#right{
   float:right;
-}
-
-#index{
-  margin:10px;
-  width: 115%;
-  height: 280px;
-  text-align: center;
-
-}
-
-#index>div>p{
-  font-size:20px;
-  margin-top:10px;
-  background-color: #bbbbbb;
-}
-
-#index>div>p>a{
-  font-size:20px;
-}
-
-#content{
-  margin:10px;
-  width:100%;
-  height:500px;
-  overflow: auto;
-}
-
-#home, #archives, #projects, #aboutme{
-  opacity:0.8;
-  border-radius:7px;
-  width:100%;
-  height:68px;
-  background: #bbbbbb;
-  cursor: pointer;
-}
-
-#home, #archives, #projects{
-  border-bottom: 3px solid #999999;
+  margin-top:-2px;
 }
 
 .homeitem{
-  border-bottom: 1px solid #999999;
+  width:100%;
 }
+
 .home_img{
   border-radius:10px;
-  margin-top:30px;
-  margin-left:25px;
-  width:500px;
+  width:100%;
 }
 
 .home_label{
   float: right;
-  margin-right:20px;
+  line-height:40px;
+}
+
+ol, ul{
+  padding-left: 25px;
+}
+
+ol>li, ul>li{
+  margin-top:10px;
+  list-style-position:inside;
+}
+
+ol>li{
+  list-style-type:decimal;
+}
+
+ul>li{
+  list-style-type:disc;
 }
 
 ol>li, div>p, ul>li{
@@ -120,13 +96,8 @@ ol>li>p, ul>li>p{
   margin-top:-7px;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family:"PT Serif",Georgia,Times,"Times New Roman",serif;
-  font-weight:bold;
-  color:#666;
-}
-
 pre{
+  margin-top:10px;
   background-color:#fdf6e3;
   font-size: 15px;
   font-family: Ubuntu Mono, Monaco,Menlo, "Courier New", monospace;
@@ -180,6 +151,10 @@ a{
   text-align:center;
 }
 
+#aboutme_label>p{
+  line-height:40px;
+}
+
 #aboutme_img{
   border-radius:10px;
 }
@@ -198,24 +173,37 @@ a{
 
 .arc_year{
   opacity:0.8;
+  float:right;
+  margin-right:20px;
 }
 
 .arc_year, #arc_content, #pro_list, #homelist, #aboutme_label{
   display:none;
 }
 
+#arc_content>p, #arc_content>h1, #arc_content>h5, #arc_content>blockquote{
+  margin-top:14px;
+}
+
 #pro_list{
   padding-top:23px;
 }
 
+#pro_list>div{
+  margin-top:10px;
+}
+
 #arc_content{
-  padding-top:10px;
-  padding-left:20px;
-  padding-right:20px;
+  margin-top:50px;
+  background-color:#fff;
+  padding: 1.5em 3em;
+  box-shadow: 0 0 0.5em #e6e6e6 inset,0 0 0 1px #d4d4d4;
+  border-radius:0.25em 0.25em 18em 18em/0.25em 0.25em 0.5em 0.5em;  
 }
 
 #comments{
-  padding:30px;
+  margin-top:10px;
+  padding:10px;
 }
 
 #arc_detail1, #arc_detail2{
@@ -229,7 +217,7 @@ p>a{
 }
 
 #title_list{
-  padding-top:20px;
+  margin-top:30px;
 }
 
 /* 高亮选中 */

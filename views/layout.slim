@@ -4,34 +4,38 @@ html
     title #{@title}
     link rel="shortcut icon" type="image/png" href="/res/MyLogoT.png"
     link rel='stylesheet' type='text/css' href='/css/highlight/solarized_light.css'
-    link rel='stylesheet' type='text/css' href='/css/semantic.min.css'
-    link rel='stylesheet' type='text/css' href='/css/slimdown.css'
+    link rel='stylesheet' href='/css/semantic.css'
+    link rel='stylesheet' href='/css/typo.css'
+    link rel='stylesheet' href='/css/fixed.menu.css'
   body
+    .ui.fixed.transparent.inverted.main.menu#menu
+      .container
+        .left.menu#left
+          a.popup.home.icon.item#home href='/'
+            i.home.icon
+          a.popup.item#archives href='/archives'
+            i.text.file.icon
+          a.popup.item#projects href='/projects'
+            i.tasks.icon
+          a.popup.item#about href='/aboutme'
+            p About Me
+        #logoitem
+          //img#logo src='/res/139807258526792_meitu_1.png'
+        .right.menu#right
+          a.popup.item href='https://github.com/MrHuxu'
+            i.github.icon
+          a.popup.item href='http://weibo.com/2058722335/profile?topnav=1&wvr=5&user=1'
+            i.weibo.icon
+          a.popup.item href='http://www.renren.com/337570117/profile'
+            i.renren.icon
+          a.popup.item href='mailto:hxtheone@gmail.com'
+            i.mail.outline.icon
     .ui.grid
       .three.wide.column
-      .three.wide.column
-        #logo
-          img#logo_img src='/res/title.gif'
-        #motto
-          p#motto1 I'm not in danger, I am the danger.
-          p#motto2 ——Walter White
-        #index
-          #home
-            p.ui.label 
-              a#home_link href='/' HOME
-          #archives
-            p.ui.label 
-              a#archives_link href='/archives' ARCHIVES
-          #projects
-            p.ui.label 
-              a#projects_link href='/projects' PROJECTS
-          #aboutme
-            p.ui.label
-              a#aboutme_link href='/aboutme' ABOUTME
-      .seven.wide.column
-        #content
-          ==yield
-    script type='text/javascript' src='/js/jquery-1.10.2.min.js'
-    script type='text/javascript' src='/js/jquery.color-2.1.2.min.js'
-    script type='text/javascript' src='/js/highlight.pack.js'
-    script type='text/javascript' src='/js/slimdown.js'
+      .ten.wide.column#content
+        ==yield
+script type='text/javascript' src='/js/jquery.js'
+script type='text/javascript' src='/js/jquery.color.js'
+script type='text/javascript' src='/js/highlight.pack.js'
+script type='text/javascript' src='/js/semantic.js'
+script type='text/javascript' src='/js/fixed.menu.js'
