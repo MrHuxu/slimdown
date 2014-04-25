@@ -1,4 +1,4 @@
-source 'http://ruby.taobao.org/'
+source 'http://rubygems.org/'
 ruby '2.1.1'
 gem 'shotgun', '~> 0.9'
 gem 'thin', '~> 1.6.2'
